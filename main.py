@@ -5,6 +5,7 @@ import json
 import sys
 from bbs import getbbsforum, getpostdetail, likeposts,shareposts,getTotalGold,mingchaosignin,bbssignin
 json_string = sys.argv[1]
+sys.stdout.reconfigure(encoding='utf-8')
 
 def sign_in():
     now = datetime.datetime.now()
