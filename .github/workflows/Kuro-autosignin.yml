@@ -20,5 +20,5 @@ jobs:
          pip install requests
     - name: Run 
       run: |
-        python3 ./main.py "${{secrets.USER_DATA_JSON}}"
+        python3 ./main.py '${{secrets.USER_DATA_JSON}}'
     - uses: gautamkrishnar/keepalive-workflow@master
